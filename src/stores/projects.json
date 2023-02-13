@@ -25,13 +25,21 @@
   },
   {
     "id": 4,
+    "title": "Text Explode Generator",
+    "desc": "tools to make text \"explode\" with CSS",
+    "image": "explode",
+    "github": "https://github.com/jo0707/text-explode",
+    "demo": "https://github.com/jo0707/text-explode"
+  },
+  {
+    "id": 5,
     "title": "GreenCafe",
     "desc": "Cafe cashier application. Manage transactions, reports, menus and users. Made With JavaFX and Kotlin",
     "image": "greencafe",
     "github": "https://github.com/jo0707/greencafe"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "GitUsers",
     "desc": "Android app to show Github users and details",
     "image": "gitusers",
