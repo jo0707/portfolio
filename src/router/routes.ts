@@ -1,4 +1,7 @@
 import HomeView from "@/views/HomeView.vue";
+import AboutView from "@/views/AboutView.vue";
+import ProjectsView from "@/views/ProjectsView.vue";
+import ContactView from "@/views/ContactView.vue";
 
 export const routes = [
   {
@@ -10,17 +13,17 @@ export const routes = [
   {
     path: "/about",
     name: "About",
-    component: import("@/views/AboutView.vue"),
+    component: AboutView,
   },
   {
     path: "/projects",
     name: "Projects",
-    component: import("@/views/ProjectsView.vue"),
+    component: ProjectsView,
   },
   {
     path: "/contact",
     name: "Contact",
-    component: import("@/views/ContactView.vue"),
+    component: ContactView,
   },
   {
     path: "/:pathMatch(.*)*",
