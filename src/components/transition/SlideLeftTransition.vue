@@ -1,11 +1,5 @@
 <template>
-  <Transition
-    name="slideleft"
-    mode="out-in"
-    @enter="onTransition"
-    @leave="onTransition"
-    appear
-  >
+  <Transition name="slideleft" mode="out-in" @enter="onTransition" @leave="onTransition" appear>
     <slot></slot>
   </Transition>
 </template>

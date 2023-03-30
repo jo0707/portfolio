@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="-lg:gap-6 flex flex-col place-items-center place-self-center lg:flex-row"
-  >
+  <div class="-lg:gap-6 flex flex-col place-items-center place-self-center lg:flex-row">
     <div class="mt-4 flex flex-1 flex-col">
       <SlideLeftTransition :dur="0.8">
         <h5 class="my-2 text-lg lg:text-xl">Hello!</h5>
@@ -16,20 +14,14 @@
       </SlideLeftTransition>
 
       <SlideLeftTransition :dur="1.9">
-        <RouterLink
-          to="/about"
-          class="underline-slate-900 dark:underline-slate-400 my-3 place-self-start py-3 underline sm:mt-10"
-          >About Me ></RouterLink
-        >
+        <RouterLink to="/about"
+          class="underline-slate-900 dark:underline-slate-400 my-3 place-self-start py-3 underline sm:mt-10">About Me >
+        </RouterLink>
       </SlideLeftTransition>
     </div>
 
     <div class="flex-1">
-      <img
-        class="w-92 lg:w-116 m-auto"
-        src="../assets/img/profile.webp"
-        alt="profile"
-      />
+      <img class="w-92 lg:w-116 m-auto" src="../assets/img/profile.webp" alt="profile" />
     </div>
   </div>
 </template>

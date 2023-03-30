@@ -3,10 +3,7 @@
     <TheNavigation />
   </header>
   <main class="overflow-x-hidden font-mono">
-    <router-view
-      v-slot="{ Component, route }"
-      class="mx-auto min-h-screen px-16 py-24 lg:p-32"
-    >
+    <router-view v-slot="{ Component, route }" class="mx-auto min-h-screen px-16 py-24 lg:p-32">
       <FadeTransition :dur="1">
         <component :is="Component" :key="route.name" />
       </FadeTransition>

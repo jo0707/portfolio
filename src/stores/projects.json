@@ -1,14 +1,22 @@
 [
   {
     "id": 1,
+    "title": "QRGen",
+    "desc": "minimalist QR Generator & Scanner in made with Nuxt 3",
+    "image": "qrgen",
+    "github": "https://github.com/jo0707/QRGen",
+    "demo": "https://qr.jodev.my.id/"
+  },
+  {
+    "id": 2,
     "title": "Tic Tac Toe",
     "desc": "Simple tic tac toe game made with Vite, Vue 3, WindiCSS and Motion One",
     "image": "tictactoe",
     "github": "https://github.com/jo0707/Tic-Tac-Toe",
-    "demo": "https://tic-tac-toe-red-alpha.vercel.app/"
+    "demo": "https://tictactoe.jodev.my.id/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Bookshelv",
     "desc": "App to organize books that have been read. built with only HTML, CSS and javascript",
     "image": "bookshelv",
@@ -16,7 +24,7 @@
     "demo": "https://jo0707.github.io/Bookshelv/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "ViNote",
     "desc": "Simple and offline note app based on Flutter.",
     "image": "vinote",
@@ -24,22 +32,22 @@
     "demo": "https://jo0707.github.io/viNote/"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Text Explode Generator",
     "desc": "tools to make text \"explode\" with CSS",
     "image": "explode",
     "github": "https://github.com/jo0707/text-explode",
-    "demo": "https://text-explode.vercel.app/"
+    "demo": "https://explode.jodev.my.id/"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "GreenCafe",
     "desc": "Cafe cashier application. Manage transactions, reports, menus and users. Made With JavaFX and Kotlin",
     "image": "greencafe",
     "github": "https://github.com/jo0707/greencafe"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "GitUsers",
     "desc": "Android app to show Github users and details",
     "image": "gitusers",

@@ -1,11 +1,5 @@
 <template>
-  <Transition
-    name="fade"
-    mode="out-in"
-    @enter="onEnter"
-    @leave="onLeave"
-    appear
-  >
+  <Transition name="fade" mode="out-in" @enter="onEnter" @leave="onLeave" appear>
     <slot></slot>
   </Transition>
 </template>

@@ -19,10 +19,7 @@ import SectionTitle from "@/components/SectionTitle.vue";
       🏆 Has participated and won 1st place at LKS North Sumatera.
     </p>
 
-    <RouterLink
-      to="/projects"
-      class="underline-slate-400 my-3 mt-10 place-self-start py-3 underline"
-      >My Projects ></RouterLink
-    >
+    <RouterLink to="/projects" class="underline-slate-400 my-3 mt-10 place-self-start py-3 underline">My Projects >
+    </RouterLink>
   </div>
 </template>

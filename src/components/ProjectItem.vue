@@ -1,10 +1,6 @@
 <template>
   <div>
-    <img
-      class="h-36 w-full rounded-sm object-cover object-top"
-      :src="getImageUrl()"
-      :alt="project.title"
-    />
+    <img class="h-36 w-full rounded-sm object-cover object-top" :src="getImageUrl()" :alt="project.title" />
     <div class="h-max p-2 text-sm">
       <h5 class="text-md font-bold">{{ project.title }}</h5>
       <p class="h-30 pt-4 text-left">{{ project.desc }}</p>

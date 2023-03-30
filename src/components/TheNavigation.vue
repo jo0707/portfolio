@@ -1,21 +1,12 @@
 <template>
   <nav>
-    <ul
-      class="md:text-md flex h-full w-full flex-row items-center justify-center gap-4 text-sm sm:gap-6"
-    >
+    <ul class="md:text-md flex h-full w-full flex-row items-center justify-center gap-4 text-sm sm:gap-6">
       <li v-for="route in routes" :key="route.name">
-        <RouterLink
-          :to="route.path"
-          class="py-3 opacity-60 transition dark:text-slate-200 hover:dark:opacity-100"
-          >{{ route.name }}</RouterLink
-        >
+        <RouterLink :to="route.path" class="py-3 opacity-60 transition dark:text-slate-200 hover:dark:opacity-100">{{
+          route.name }}</RouterLink>
       </li>
       <li>
-        <a
-          @click="dark = !dark"
-          href="#"
-          class="py-3 opacity-60 transition dark:text-slate-200 hover:dark:opacity-100"
-        >
+        <a @click="dark = !dark" href="#" class="py-3 opacity-60 transition dark:text-slate-200 hover:dark:opacity-100">
           <SvgIcon class="mt-2" size="20" :path="mdiBrightness4" type="mdi" />
         </a>
       </li>
