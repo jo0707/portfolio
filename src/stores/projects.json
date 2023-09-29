@@ -5,7 +5,7 @@
     "desc": "minimalist QR Generator & Scanner in made with Nuxt 3",
     "image": "qrgen",
     "github": "https://github.com/jo0707/QRGen",
-    "demo": "https://qr.jodev.my.id/"
+    "demo": "https://qr.jooo.my.id/"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "desc": "Simple tic tac toe game made with Vite, Vue 3, WindiCSS and Motion One",
     "image": "tictactoe",
     "github": "https://github.com/jo0707/Tic-Tac-Toe",
-    "demo": "https://tictactoe.jodev.my.id/"
+    "demo": "https://tictactoe.jooo.my.id/"
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@
     "desc": "tools to make text \"explode\" with CSS",
     "image": "explode",
     "github": "https://github.com/jo0707/text-explode",
-    "demo": "https://explode.jodev.my.id/"
+    "demo": "https://explode.jooo.my.id/"
   },
   {
     "id": 6,
