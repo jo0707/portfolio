@@ -1,5 +1,13 @@
 [
   {
+    "id": 0,
+    "title": "Quizzler",
+    "desc": "A quiz app made with Nuxt 3 and its ecosystem",
+    "image": "quizzler",
+    "github": "https://github.com/jo0707/quizzler",
+    "demo": "https://quizzler.jooo.my.id/"
+  },
+  {
     "id": 1,
     "title": "QRGen",
     "desc": "minimalist QR Generator & Scanner in made with Nuxt 3",
